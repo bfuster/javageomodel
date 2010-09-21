@@ -13,7 +13,7 @@ import com.beoui.geocell.model.GeocellQuery;
 import com.beoui.geocell.model.LocationCapable;
 
 /**
- * Just a mock
+ * JPA standard search
  * @author bfuster
  *
  */

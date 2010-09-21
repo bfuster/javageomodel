@@ -4,7 +4,7 @@
   <artifactId>geocell</artifactId>
   <packaging>jar</packaging>
   <name>GeocellJava</name>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.4-SNAPSHOT</version>
   <url>http://code.google.com/p/javageomodel</url>
 
   <licenses>
