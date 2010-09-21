@@ -224,7 +224,7 @@ public class GeocellManager {
      * @throws all exceptions that can be thrown when running queries.
      */
     @SuppressWarnings("unchecked")
-    public static final <T extends LocationCapable> List<T> proximityFetch(Point center, int maxResults, double maxDistance, Class<T> entityClass, LocationCapableRepositorySearch<T> repositorySearch, int maxGeocellResolution) {
+    public static final <T extends LocationCapable> List<T> proximityFetch(Point center, int maxResults, double maxDistance, LocationCapableRepositorySearch<T> repositorySearch, int maxGeocellResolution) {
         List<LocationComparableTuple<T>> results = new ArrayList<LocationComparableTuple<T>>();
 
         // The current search geocell containing the lat,lon.
@@ -382,8 +382,8 @@ public class GeocellManager {
      * Use MAX_GEOCELL_RESOLUTION as a starting resolution.
      *
      */
-    public static final <T extends LocationCapable> List<T> proximityFetch(Point center, int maxResults, double maxDistance, Class<T> entityClass, LocationCapableRepositorySearch<T> searchRepository) {
-        return proximityFetch(center, maxResults, maxDistance, entityClass, searchRepository, MAX_GEOCELL_RESOLUTION);
+    public static final <T extends LocationCapable> List<T> proximityFetch(Point center, int maxResults, double maxDistance, LocationCapableRepositorySearch<T> searchRepository) {
+        return proximityFetch(center, maxResults, maxDistance, searchRepository, MAX_GEOCELL_RESOLUTION);
     }
 
 }

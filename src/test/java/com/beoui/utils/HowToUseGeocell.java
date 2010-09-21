@@ -25,6 +25,7 @@ import junit.framework.TestCase;
 
 import com.beoui.geocell.GeocellManager;
 import com.beoui.geocell.JPALocationCapableRepositorySearchImpl;
+import com.beoui.geocell.LocationCapableRepositorySearch;
 import com.beoui.geocell.model.BoundingBox;
 import com.beoui.geocell.model.CostFunction;
 import com.beoui.geocell.model.GeocellQuery;
@@ -132,7 +133,8 @@ public class HowToUseGeocell extends TestCase {
 
         List<ObjectToSave> objects = null;
         try {
-            objects = GeocellManager.proximityFetch(center, 40, 0, ObjectToSave.class, new JPALocationCapableRepositorySearchImpl());
+        	LocationCapableRepositorySearch<ObjectToSave> searchImpl = new JPALocationCapableRepositorySearchImpl<ObjectToSave>(baseQuery, pm, ObjectToSave.class);
+            objects = GeocellManager.proximityFetch(center, 40, 0, searchImpl );
             Assert.assertTrue(objects.size() > 0);
         } catch (Exception e) {
             // We catch excption here because we have not configured the PersistentManager (and so the queries won't work)
