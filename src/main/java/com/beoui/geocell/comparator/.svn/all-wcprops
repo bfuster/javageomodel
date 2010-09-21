@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/comparator
+END
+LocationComparableTuple.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/comparator/LocationComparableTuple.java
+END
+DoubleTupleComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/geocell/src/main/java/com/beoui/geocell/comparator/DoubleTupleComparator.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/model
+END
+GeocellQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/model/GeocellQuery.java
+END
+LocationCapable.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/model/LocationCapable.java
+END
+DefaultCostFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/geocell/src/main/java/com/beoui/geocell/model/DefaultCostFunction.java
+END
+Tuple.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/model/Tuple.java
+END
+Point.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/model/Point.java
+END
+BoundingBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/model/BoundingBox.java
+END
+CostFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/7/trunk/geocell/src/main/java/com/beoui/geocell/model/CostFunction.java
+END
