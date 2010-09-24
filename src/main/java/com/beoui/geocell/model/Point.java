@@ -13,7 +13,6 @@ and limitations under the License.
 
 package com.beoui.geocell.model;
 
-import org.apache.commons.lang.Validate;
 
 /**
  *
